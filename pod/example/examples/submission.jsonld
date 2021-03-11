@@ -1,0 +1,20 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "summary": "Follow request for of Registration lifecycle event",
+  "@type": "https://www.example.org/ontology#ServiceRequest",
+  "actor": {
+    "@id": "https://www.mypod.org/artefacts/person1.ttl#me",
+    "@type": "Person"
+  },
+  "object": [
+    {
+      "@id": "https://www.mypod.org/artefacts/artefact1",
+      "@type": "https://www.example.org/ontology#Artefact"
+    }
+  ], 
+  "target": {
+    "@type": "Service",
+    "name": "Registration service",
+    "url": "https://www.servicehub1.org/registrationservice"
+  }
+}

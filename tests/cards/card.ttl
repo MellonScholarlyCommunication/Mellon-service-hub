@@ -1,0 +1,9 @@
+@prefix : <#>.
+@prefix solid: <http://www.w3.org/ns/solid/terms#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ldp: <http://www.w3.org/ns/ldp#>.
+@prefix inbox: </tests/inbox/>.
+
+:service
+    ldp:inbox inbox:;
+    foaf:name "Awareness Service hub".

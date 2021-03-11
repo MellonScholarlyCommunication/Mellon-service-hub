@@ -1,0 +1,20 @@
+{
+  "@context": "https://www.w3.org/ns/activitystreams",
+  "summary": "Follow request for of Registration lifecycle event",
+  "@type": "https://www.example.org/ontology#Subscribe",
+  "actor": {
+    "@id": "https://mypod.org/profile/card#me",
+    "@type": "Person"
+  },
+  "object": [
+    {
+      "https://www.example.org/ontology#property": "https://www.example.org/ontology#Keyword" ,
+      "https://www.example.org/ontology#propertyValue": "keywordvalue1"
+    }
+  ], 
+  "target": {
+    "@type": "Service",
+    "name": "Registration service",
+    "url": "https://www.servicehub1.org/registrationservice"
+  }
+}

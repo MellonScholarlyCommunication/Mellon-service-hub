@@ -1,0 +1,4 @@
+node_modules/
+pod/keys/
+config/
+dist/

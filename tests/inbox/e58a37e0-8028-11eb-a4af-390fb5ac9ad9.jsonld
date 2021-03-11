@@ -1,0 +1,76 @@
+[
+  {
+    "@id": "http://localhost:1234/tests/cards/person1card.ttl#person",
+    "@type": [
+      "https://www.w3.org/ns/activitystreams#Person"
+    ]
+  },
+  {
+    "@id": "_:df_1_0",
+    "https://www.example.org/ontology#property": [
+      {
+        "@value": "https://www.example.org/ontology#keyword"
+      }
+    ],
+    "https://www.example.org/ontology#propertyValue": [
+      {
+        "@value": "testvalue"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_1_1",
+    "@type": [
+      "https://www.w3.org/ns/activitystreams#Service"
+    ],
+    "https://www.w3.org/ns/activitystreams#name": [
+      {
+        "@value": "Registration service"
+      }
+    ],
+    "https://www.w3.org/ns/activitystreams#url": [
+      {
+        "@id": "http://localhost:1234/tests/cards/card.ttl#service"
+      }
+    ]
+  },
+  {
+    "@id": "_:df_1_2",
+    "@type": [
+      "https://www.example.org/ontology#Subscribe"
+    ],
+    "https://www.w3.org/ns/activitystreams#summary": [
+      {
+        "@value": "Follow request for of Registration lifecycle event"
+      }
+    ],
+    "https://www.w3.org/ns/activitystreams#actor": [
+      {
+        "@id": "http://localhost:1234/tests/cards/person1card.ttl#person"
+      }
+    ],
+    "https://www.w3.org/ns/activitystreams#object": [
+      {
+        "@id": "_:df_1_0"
+      }
+    ],
+    "https://www.w3.org/ns/activitystreams#target": [
+      {
+        "@id": "_:df_1_1"
+      }
+    ]
+  },
+  {
+    "@id": "urn:Notification",
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "http://localhost:1234/tests/cards/person1card.ttl#person"
+      }
+    ],
+    "https://www.w3.org/ns/activitystreams#to": [
+      {
+        "@id": "http://localhost:1234/tests/cards/card.ttl#service"
+      }
+    ]
+  }
+]
